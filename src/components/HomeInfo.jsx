@@ -15,10 +15,15 @@ const InfoBox = ({text, link, btnText})=>(
 
 const renderContent = {
     1:(
+        <div>
         <h1 className="sm:text-xl sm:leadin-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
             Hi, I am <span className="font-semibold">Keshav</span> 👋
             <br />
-            A software Engineer from India</h1>
+            A software Engineer from India
+            <br/>
+            <h3>Drag the screen to see all popups.</h3>
+            </h1>
+            </div>
     ),
     2:(
         <InfoBox 
